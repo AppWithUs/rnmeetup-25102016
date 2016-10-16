@@ -7,9 +7,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "apsl-react-native-button": "^3.0.1",
+    "querystring": "^0.2.0",
     "react": "15.3.2",
     "react-native": "0.35.0",
-    "react-native-maps": "^0.10.1"
+    "react-native-maps": "git://github.com/airbnb/react-native-maps.git#1d5b0449d0ab0a0b6f4e502586799e4ba1ff8f32",
+    "striptags": "^2.1.1"
   },
   "jest": {
     "preset": "jest-react-native"
